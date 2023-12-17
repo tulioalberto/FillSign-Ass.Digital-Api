@@ -3,9 +3,7 @@ C:\Dev\FillSign\FillSign\FillSign.Ds.Data\bin\Debug\net8.0\FillSign.Ds.Data.runt
 C:\Dev\FillSign\FillSign\FillSign.Ds.Data\bin\Debug\net8.0\FillSign.Ds.Data.dll
 C:\Dev\FillSign\FillSign\FillSign.Ds.Data\bin\Debug\net8.0\FillSign.Ds.Data.pdb
 C:\Dev\FillSign\FillSign\FillSign.Ds.Data\bin\Debug\net8.0\FillSign.Ds.Domain.dll
-C:\Dev\FillSign\FillSign\FillSign.Ds.Data\bin\Debug\net8.0\FillSign.Ds.Services.dll
 C:\Dev\FillSign\FillSign\FillSign.Ds.Data\bin\Debug\net8.0\FillSign.Ds.Domain.pdb
-C:\Dev\FillSign\FillSign\FillSign.Ds.Data\bin\Debug\net8.0\FillSign.Ds.Services.pdb
 C:\Dev\FillSign\FillSign\FillSign.Ds.Data\obj\Debug\net8.0\FillSign.Ds.Data.csproj.AssemblyReference.cache
 C:\Dev\FillSign\FillSign\FillSign.Ds.Data\obj\Debug\net8.0\FillSign.Ds.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\FillSign\FillSign\FillSign.Ds.Data\obj\Debug\net8.0\FillSign.Ds.Data.AssemblyInfoInputs.cache

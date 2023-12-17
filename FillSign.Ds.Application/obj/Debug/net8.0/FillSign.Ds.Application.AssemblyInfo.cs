@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FillSign.Ds.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b56c20f87b2aa3833371e5a5f01148b078b0cf7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FillSign.Ds.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FillSign.Ds.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

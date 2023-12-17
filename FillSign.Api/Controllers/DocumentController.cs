@@ -1,6 +1,9 @@
-﻿using FillSign.Ds.Data;
+﻿using FillSign.Ds.Application.CommandHandlers;
+using FillSign.Ds.Data;
+using FillSign.Ds.Domain;
 using FillSign.Ds.Services.Notification;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FillSign.Ds.Api.Controllers
 {
@@ -9,12 +12,15 @@ namespace FillSign.Ds.Api.Controllers
     public class DocumentController : ControllerBaseCustom
     {
         private readonly ApiDbContext _context;
+        private readonly IDocumentApplication _documentApplication;
         private readonly INotificationDomain<NotificationDomainMessage>? _notifications;
         public DocumentController(ApiDbContext context, 
-            INotificationDomain<NotificationDomainMessage>notifications)
+            INotificationDomain<NotificationDomainMessage>notifications,
+            IDocumentApplication documentApplication) : base(context, notifications)
         {
             _context = context;
             _notifications = notifications;
+            _documentApplication = documentApplication;
         }
 
         [HttpGet]
@@ -24,37 +30,45 @@ namespace FillSign.Ds.Api.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<Document>> GetDocoment(int id)
+        public async Task<ActionResult<Document>> GetDocument(int id)
         {
-            var document = await _context.Documents.FindAsync(id);
+            var document = await _documentApplication.GetDocumentById(id);
 
-            return document;
+            if (_notifications.HasNotifications())
+                return NotFound(new { Errors = _notifications.GetAll() });
+
+            return Ok(document);
         }
 
         [HttpPost]
         public async Task<ActionResult<Document>> PostDocument(Document document)
         {
-            _context.Documents.Add(document);
-            await _context.SaveChangesAsync();
+            var createdDocument = await _documentApplication.CreateDocument(document);
 
-            return CreatedAtAction(nameof(GetDocoment), new { id = document.Id }, document);
+            if (_notifications.HasNotifications())
+                return BadRequest(new { Errors = _notifications.GetAll() });
+            
+            return CreatedAtAction(nameof(GetDocument), new { id = document.Id }, document);
         }
 
         [HttpPut("{id:int}")]
         public async Task<IActionResult> PutDocument(int id, Document document)
         {
-            _context.Documents.Update(document);
-            await _context.SaveChangesAsync();
+            var updateDocument = await _documentApplication.UpdateDocument(id, document);
+
+            if (_notifications.HasNotifications())
+                return NotFound(new { Errors = _notifications.GetAll() });
 
             return NoContent();
         }
 
         [HttpDelete("{id:int}")]
-        public async Task<IActionResult> DeleteDocument(Document document, int id)
+        public async Task<IActionResult> DeleteDocument(int id, Document document)
         {
-            var documents = await _context.Documents.FindAsync();
-            _context.Documents.Remove(document);
-            await _context.SaveChangesAsync();
+            var deleteDocument = await _documentApplication.DeleteDocument(id, document);
+
+            if (_notifications.HasNotifications())
+                return NotFound(new { Errors = _notifications.GetAll() });
 
             return NoContent();
         }

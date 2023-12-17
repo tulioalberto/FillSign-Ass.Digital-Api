@@ -1,4 +1,6 @@
-using FillSign.Ds.Domain.Data;
+using FillSign.Ds.Application.CommandHandlers;
+using FillSign.Ds.Data;
+using FillSign.Ds.Services.Notification;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +11,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddScoped<INotificationDomain<NotificationDomainMessage>, NotificationDomain>();
+builder.Services.AddScoped<IDocumentApplication, DocumentApplication>();
 builder.Services.AddDbContext<ApiDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -27,8 +30,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
-app.MapGet("/", () => "Acesse /swagger para mais informaçoes");
 
 app.MapControllers();
 

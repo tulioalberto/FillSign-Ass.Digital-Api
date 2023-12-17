@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FillSign.Ds.Data\FillSign.Ds.Data.csproj" />
     <ProjectReference Include="..\FillSign.Ds.Domain\FillSign.Ds.Domain.csproj" />
     <ProjectReference Include="..\FillSign.Ds.Services\FillSign.Ds.Services.csproj" />

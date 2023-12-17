@@ -7,7 +7,7 @@ namespace FillSign.Ds.Api.Controllers
 {
     public class ControllerBaseCustom : ControllerBase
     {
-        private readonly ApiDbContext? _context;
+        private readonly ApiDbContext _context;
         private readonly INotificationDomain<NotificationDomainMessage>? _notifications;
         public ControllerBaseCustom(ApiDbContext context,
             INotificationDomain<NotificationDomainMessage> notifications)
@@ -18,7 +18,7 @@ namespace FillSign.Ds.Api.Controllers
 
 
 
-        protected new IActionResult Response(object result = null)
+        protected new IActionResult Response(object? result = null)
         {
             if (IsSuccess)
                 return Ok(new { data = (object) null });

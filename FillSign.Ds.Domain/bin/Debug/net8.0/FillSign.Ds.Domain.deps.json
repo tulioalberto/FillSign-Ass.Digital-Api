@@ -7,27 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "FillSign.Ds.Domain/1.0.0": {
-        "dependencies": {
-          "FillSign.Ds.Application": "1.0.0"
-        },
         "runtime": {
           "FillSign.Ds.Domain.dll": {}
-        }
-      },
-      "FillSign.Ds.Services/1.0.0": {
-        "runtime": {
-          "FillSign.Ds.Services.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FillSign.Ds.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FillSign.Ds.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

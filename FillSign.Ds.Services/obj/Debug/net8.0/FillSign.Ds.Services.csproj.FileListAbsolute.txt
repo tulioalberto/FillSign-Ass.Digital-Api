@@ -5,8 +5,8 @@ C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Servi
 C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Services.AssemblyInfoInputs.cache
 C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Services.AssemblyInfo.cs
 C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Services.csproj.CoreCompileInputs.cache
+C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Services.sourcelink.json
 C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Services.dll
 C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\refint\FillSign.Ds.Services.dll
 C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Services.pdb
 C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\ref\FillSign.Ds.Services.dll
-C:\Dev\FillSign\FillSign\FillSign.Ds.Services\obj\Debug\net8.0\FillSign.Ds.Services.sourcelink.json
