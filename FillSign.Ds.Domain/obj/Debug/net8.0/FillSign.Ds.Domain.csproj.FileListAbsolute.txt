@@ -1,0 +1,16 @@
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\bin\Debug\net8.0\FillSign.Ds.Domain.deps.json
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\bin\Debug\net8.0\FillSign.Ds.Domain.dll
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\bin\Debug\net8.0\FillSign.Ds.Domain.pdb
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\bin\Debug\net8.0\FillSign.Ds.Services.dll
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\bin\Debug\net8.0\FillSign.Ds.Services.pdb
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.csproj.AssemblyReference.cache
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.AssemblyInfoInputs.cache
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.AssemblyInfo.cs
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.sourcelink.json
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.csproj.CopyComplete
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.dll
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\refint\FillSign.Ds.Domain.dll
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\FillSign.Ds.Domain.pdb
+C:\Dev\FillSign\FillSign\FillSign.Ds.Domain\obj\Debug\net8.0\ref\FillSign.Ds.Domain.dll

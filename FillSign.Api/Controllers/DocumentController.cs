@@ -1,8 +1,6 @@
-﻿using FillSign.Ds.Application.Models;
-using FillSign.Ds.Domain.Data;
+﻿using FillSign.Ds.Data;
 using FillSign.Ds.Services.Notification;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace FillSign.Ds.Api.Controllers
 {
@@ -11,10 +9,12 @@ namespace FillSign.Ds.Api.Controllers
     public class DocumentController : ControllerBaseCustom
     {
         private readonly ApiDbContext _context;
+        private readonly INotificationDomain<NotificationDomainMessage>? _notifications;
         public DocumentController(ApiDbContext context, 
-            INotificationDomain<NotificationDomainMessage>notifications) : base(notifications)
+            INotificationDomain<NotificationDomainMessage>notifications)
         {
             _context = context;
+            _notifications = notifications;
         }
 
         [HttpGet]

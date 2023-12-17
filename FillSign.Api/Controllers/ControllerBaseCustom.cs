@@ -1,4 +1,5 @@
-﻿using FillSign.Ds.Services.Notification;
+﻿using FillSign.Ds.Data;
+using FillSign.Ds.Services.Notification;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 
@@ -6,12 +7,15 @@ namespace FillSign.Ds.Api.Controllers
 {
     public class ControllerBaseCustom : ControllerBase
     {
-        public readonly INotificationDomain<NotificationDomainMessage> _notifications;
-        public ControllerBaseCustom(
+        private readonly ApiDbContext? _context;
+        private readonly INotificationDomain<NotificationDomainMessage>? _notifications;
+        public ControllerBaseCustom(ApiDbContext context,
             INotificationDomain<NotificationDomainMessage> notifications)
         {
+            _context = context;
             _notifications = notifications;
         }
+
 
 
         protected new IActionResult Response(object result = null)
