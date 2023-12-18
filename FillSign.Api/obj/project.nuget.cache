@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uS+WI2foyHu03HlVjSQJG9WYRxFie+MAwphKQWTUgfqaM8POFXE0SSKXKQTvyGoTD/GlwUn+TKn5S1WQS5QZcQ==",
+  "dgSpecHash": "25e9vuoHR6HS4w1PVC02P4fYgS1T0SWJ+0nq5FzruKJnKUl1+lTgM37ANNHRUa+YFQubnde+AXyWNRu13/QflQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\FillSign\\FillSign\\FillSign.Api\\FillSign.Ds.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tulio\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Tulio\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Tulio\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Tulio\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

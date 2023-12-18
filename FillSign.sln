@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FillSign.Ds.Services", "Fil
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", "{5ECDEC1C-6E7A-4E35-A1F8-294571CF9B85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillSign.Ds.Data", "FillSign.Ds.Data\FillSign.Ds.Data.csproj", "{AF24F66C-CFB2-46C4-A381-CE37933FAA74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FillSign.Ds.Data", "FillSign.Ds.Data\FillSign.Ds.Data.csproj", "{AF24F66C-CFB2-46C4-A381-CE37933FAA74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillSign.Ds.Application", "FillSign.Ds.Application\FillSign.Ds.Application.csproj", "{788F8BF6-4110-4123-A8B6-8106E07FD571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FillSign.Ds.Application", "FillSign.Ds.Application\FillSign.Ds.Application.csproj", "{788F8BF6-4110-4123-A8B6-8106E07FD571}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

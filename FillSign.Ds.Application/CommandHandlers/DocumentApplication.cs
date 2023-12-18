@@ -25,7 +25,7 @@ namespace FillSign.Ds.Application.CommandHandlers
 
             if (document == null)
             {
-                _notifications.Add(new NotificationDomainMessage("Documento não encontrado."));
+                _notifications.Add(new NotificationDomainMessage("Document not found."));
             }
 
             return document;
@@ -35,7 +35,7 @@ namespace FillSign.Ds.Application.CommandHandlers
         {
             if (document == null)
             {
-                _notifications.Add(new NotificationDomainMessage("Erro ao criar um documento, contate o suporte!"));
+                _notifications.Add(new NotificationDomainMessage("Error in create document, contact the support."));
             }
 
             _context.Documents.Add(document);
@@ -47,7 +47,7 @@ namespace FillSign.Ds.Application.CommandHandlers
         public async Task<Document> UpdateDocument(int id, Document document)
         {
             if (id != document.Id)
-                _notifications.Add(new NotificationDomainMessage("Produto não encontrado."));
+                _notifications.Add(new NotificationDomainMessage("Document not found."));
 
             _context.Entry(document).State = EntityState.Modified;
 
@@ -58,7 +58,7 @@ namespace FillSign.Ds.Application.CommandHandlers
             catch (DbUpdateConcurrencyException)
             {
                 if (!DocumentExists(id))
-                    _notifications.Add(new NotificationDomainMessage("Produto não encontrado."));
+                    _notifications.Add(new NotificationDomainMessage("Document not Found."));
                 else
                 {
                     throw;
@@ -71,7 +71,7 @@ namespace FillSign.Ds.Application.CommandHandlers
         {
             var documents = await _context.Documents.FindAsync();
             if (id != document.Id)
-                _notifications.Add(new NotificationDomainMessage("Produto não encontrado."));
+                _notifications.Add(new NotificationDomainMessage("Document not found."));
 
             _context.Documents.Remove(document);
             await _context.SaveChangesAsync();

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "vE0BZjtbj5ug1LCQdRXSm/X1tJSDc9XfaTswJgstT+qeuZ8p7IG4sBHH7LDWk9Sgpmm/1yG9nTthxjnjlgJxNg==",
+  "dgSpecHash": "NW8HLM1ZXRS10Q4xpWg83XihhpFZj+Vg9bywx1QqZjcZoCDTe5vbDM8Vjwb52KJOSxyVlQ9P7v7/LE2lXpd2Ow==",
   "success": true,
   "projectFilePath": "C:\\Dev\\FillSign\\FillSign\\FillSign.Ds.Application\\FillSign.Ds.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tulio\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Tulio\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Tulio\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Tulio\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Tulio\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

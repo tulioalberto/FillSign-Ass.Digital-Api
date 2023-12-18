@@ -1,3 +1,9 @@
+C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.csproj.AssemblyReference.cache
+C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.AssemblyInfoInputs.cache
+C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.AssemblyInfo.cs
+C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.csproj.CoreCompileInputs.cache
+C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.sourcelink.json
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\bin\Debug\net8.0\FillSign.Ds.Application.deps.json
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\bin\Debug\net8.0\FillSign.Ds.Application.dll
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\bin\Debug\net8.0\FillSign.Ds.Application.pdb
@@ -7,12 +13,6 @@ C:\Dev\FillSign\FillSign\FillSign.Ds.Application\bin\Debug\net8.0\FillSign.Ds.Se
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\bin\Debug\net8.0\FillSign.Ds.Data.pdb
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\bin\Debug\net8.0\FillSign.Ds.Domain.pdb
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\bin\Debug\net8.0\FillSign.Ds.Services.pdb
-C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.csproj.AssemblyReference.cache
-C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.AssemblyInfoInputs.cache
-C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.AssemblyInfo.cs
-C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.csproj.CoreCompileInputs.cache
-C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.sourcelink.json
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.csproj.CopyComplete
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\FillSign.Ds.Application.dll
 C:\Dev\FillSign\FillSign\FillSign.Ds.Application\obj\Debug\net8.0\refint\FillSign.Ds.Application.dll

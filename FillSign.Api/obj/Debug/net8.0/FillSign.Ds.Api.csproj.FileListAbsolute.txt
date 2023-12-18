@@ -1,3 +1,10 @@
+C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.csproj.AssemblyReference.cache
+C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.AssemblyInfoInputs.cache
+C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.AssemblyInfo.cs
+C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.csproj.CoreCompileInputs.cache
+C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.sourcelink.json
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\appsettings.json
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FillSign.Ds.Api.exe
@@ -7,6 +14,9 @@ C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FillSign.Ds.Api.dll
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FillSign.Ds.Api.pdb
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Azure.Identity.dll
+C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Humanizer.dll
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -121,14 +131,7 @@ C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FillSign.Ds.Application.p
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FillSign.Ds.Data.pdb
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FillSign.Ds.Services.pdb
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\FillSign.Ds.Domain.pdb
-C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.csproj.AssemblyReference.cache
-C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.AssemblyInfoInputs.cache
-C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.AssemblyInfo.cs
-C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.csproj.CoreCompileInputs.cache
 C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\FillSign.Ds.Api.sourcelink.json
 C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Dev\FillSign\FillSign\FillSign.Api\obj\Debug\net8.0\staticwebassets\msbuild.FillSign.Ds.Api.Microsoft.AspNetCore.StaticWebAssets.props

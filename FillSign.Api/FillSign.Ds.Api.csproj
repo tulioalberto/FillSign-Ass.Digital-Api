@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FillSign.Ds.Application\FillSign.Ds.Application.csproj" />
     <ProjectReference Include="..\FillSign.Ds.Data\FillSign.Ds.Data.csproj" />
     <ProjectReference Include="..\FillSign.Ds.Services\FillSign.Ds.Services.csproj" />
