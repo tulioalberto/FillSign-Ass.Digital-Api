@@ -152,3 +152,4 @@ C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Iden
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Dev\FillSign\FillSign\FillSign.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
