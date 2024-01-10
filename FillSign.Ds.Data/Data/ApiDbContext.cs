@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using FillSign.Ds.Domain;
 using FillSign.Ds.Data.Mappings;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace FillSign.Ds.Data
 {
-    public class ApiDbContext : DbContext , IApiDbContext
+    public class ApiDbContext : IdentityDbContext , IApiDbContext
     {
         public ApiDbContext(DbContextOptions<ApiDbContext> options) : base(options)
         {
@@ -16,7 +18,9 @@ namespace FillSign.Ds.Data
         {
             modelBuilder.ApplyConfiguration(new DocumentMapping());
             modelBuilder.ApplyConfiguration(new SignerMapping());
-            modelBuilder.ApplyConfiguration(new DocumentSignerMapping());
+            modelBuilder.Entity<IdentityUserLogin<string>>().HasKey(u => u.UserId);
+            modelBuilder.Entity<IdentityUserRole<string>>().HasKey(u => u.UserId);
+            modelBuilder.Entity<IdentityUserToken<string>>().HasKey(u => u.UserId);
         }
     }
 }

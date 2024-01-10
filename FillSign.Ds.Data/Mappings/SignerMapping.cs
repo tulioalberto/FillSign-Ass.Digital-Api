@@ -17,7 +17,6 @@ namespace FillSign.Ds.Data.Mappings
 
             builder.Property(p => p.Id).IsRequired();
             builder.Property(p => p.Name).HasMaxLength(250).IsRequired();
-
             builder.Property(p => p.CreatedAt).IsRequired();
 
             builder.ToTable("Signer");

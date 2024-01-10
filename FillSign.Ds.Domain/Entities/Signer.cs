@@ -14,8 +14,6 @@ namespace FillSign.Ds.Domain
         public string Name { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
         public Status Status { get; set; }
-        public ICollection<DocumentSigner> DocumentSigners { get; set; }
-        public ICollection<Document> Documents { get; set; }
     }
     public enum Status { Active =  1, Inactive = 1}
 }
