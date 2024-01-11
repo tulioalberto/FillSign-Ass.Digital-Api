@@ -2,11 +2,13 @@
 using FillSign.Ds.Data;
 using FillSign.Ds.Domain;
 using FillSign.Ds.Services.Notification;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FillSign.Ds.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/document")]
     public class DocumentController : ControllerBaseCustom
