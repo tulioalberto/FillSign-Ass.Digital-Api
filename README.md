@@ -42,4 +42,4 @@
 
 <h2>Agradecimento</h2>
 
-<p>Gostaria de expressar meu sincero agradecimento ao desenvolvedor <a href="https://github.com/samuelsantos">Samuel Santos</a> por me auxiliar tecnicamente e profissionalmente e ao professor <a href="https://github.com/EduardoPires">Eduardo Pires</a> pela excelente didática no curso "Fundamentos de APIs em ASP.NET Core". Sua abordagem clara e prática proporcionou um aprendizado valioso, fundamental para o desenvolvimento deste projeto.</p>
+<p>Gostaria de expressar meu sincero agradecimento ao desenvolvedor <a href="https://github.com/samuelfsantos ">Samuel</a> por me auxiliar tecnicamente e profissionalmente e ao professor <a href="https://github.com/EduardoPires">Eduardo Pires</a> pela excelente didática no curso "Fundamentos de APIs em ASP.NET Core". Sua abordagem clara e prática proporcionou um aprendizado valioso, fundamental para o desenvolvimento deste projeto.</p>
